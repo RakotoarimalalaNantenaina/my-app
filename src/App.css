@@ -9,14 +9,14 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-bottom: 370px;
 }
 
 .App-link {
@@ -31,37 +31,22 @@
     transform: rotate(360deg);
   }
 }
-
-.accueil {
-  color: blue;
+#nom {
+  font-weight: bolder;
 }
-.apropos {
-  color: red;
+.container {
+  margin-top: 80px;
 }
-.contact {
-  color: green;
+.table {
+  width: 900px;
 }
-.liste {
-  background-color: crimson;
-  list-style-type: none;
-  float: left;
-  height: 50px;
-  width: 100%;
-  line-height: 50px;
-  text-decoration: none !important;
+.thead-dark {
+  border-radius: 10px;
 }
-li {
-  float: left;
-  padding-left: 50px;
-  text-decoration: none !important; 
-  color: bisque !important;
+th {
+  font-size: 20px;
 }
-footer {
-  background-color: gray;
-  height: 70px;
-  line-height: 70px;
-  color: white;
-}
-Link {
-  text-decoration: none;
+th:hover {
+  color: blue !important;
+  font-weight: bold;
 }
