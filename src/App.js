@@ -10,9 +10,10 @@ const App = () => {
   const [users, setUsers] = useState(usersData)
   
   const addUser = user => {
-		user.id = users.length 
+		user.id = users.length
 		setUsers([ ...users, user ])
 	}
+
 	const deleteUser = id => {
 		setUsers(users.filter(user => user.id !== id))
 	}
