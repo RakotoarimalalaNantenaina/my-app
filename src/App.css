@@ -39,6 +39,7 @@
 }
 .table {
   width: 900px;
+  margin-top: 50px;
 }
 .thead-dark {
   border-radius: 10px;
@@ -47,6 +48,5 @@ th {
   font-size: 20px;
 }
 th:hover {
-  color: blue !important;
   font-weight: bold;
 }
